@@ -72,7 +72,7 @@ public class StudentTester {
 	*/
 		
 	
-	
+	/*
 	// Permanent and Contract employee salary calculation
 		PermanentEmployee objPermanentEmployee=new PermanentEmployee();
 		objPermanentEmployee.setName("Anil");
@@ -88,7 +88,19 @@ public class StudentTester {
 		objContractEmployee.setWages(23);
 		objContractEmployee.calculateSalary();
 		System.out.println("Contract Employee: Your salary is:" + objContractEmployee.salary);
-	
+	*/
+		
+	/*
+	 // Player Rating	
+		PlayerRating objPR=new PlayerRating(1,"Beckham");
+		objPR.calculateAverageRating(9f, 9.9f);
+	*/
+		
+	/*
+	 // EventRegistration super construct overrisding	
+		EventRegistration obj= new SingleEventRegistration("Rahul","PlayAway",1);
+		obj.registerEvent();
+	*/
 	}
 
 }
