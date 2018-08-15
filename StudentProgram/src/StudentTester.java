@@ -71,7 +71,7 @@ public class StudentTester {
 		System.out.println("EMI per year for Loan is:" + amount);
 	*/
 		
-	/*
+	
 	
 	// Permanent and Contract employee salary calculation
 		PermanentEmployee objPermanentEmployee=new PermanentEmployee();
@@ -88,7 +88,7 @@ public class StudentTester {
 		objContractEmployee.setWages(23);
 		objContractEmployee.calculateSalary();
 		System.out.println("Contract Employee: Your salary is:" + objContractEmployee.salary);
-	*/
+	
 	}
 
 }
