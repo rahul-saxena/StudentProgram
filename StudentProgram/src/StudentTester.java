@@ -82,7 +82,7 @@ public class StudentTester {
 		objPermanentEmployee.setExperience(3);
 		objPermanentEmployee.calculateSalary();
 		System.out.println("Permanent Employee: Your salary is:" + objPermanentEmployee.salary);
-		
+		System.out.println("Permanent Employee");
 		ContractEmployee objContractEmployee=new ContractEmployee();
 		objContractEmployee.setHours(160);
 		objContractEmployee.setWages(23);
