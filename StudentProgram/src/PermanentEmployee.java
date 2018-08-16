@@ -1,5 +1,6 @@
 
 public class PermanentEmployee extends Employee {
+	/*
 	double basicPay;
 	double hra;
 	int experience;
@@ -59,5 +60,6 @@ public class PermanentEmployee extends Employee {
 			
 		salary=variableComponent+basicPay+hra;
 	}
+	*/
 	
 }

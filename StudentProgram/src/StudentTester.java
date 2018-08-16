@@ -101,6 +101,25 @@ public class StudentTester {
 		EventRegistration obj= new SingleEventRegistration("Rahul","PlayAway",1);
 		obj.registerEvent();
 	*/
+	
+	/*
+	// static variable
+		Loan l1=new Loan();
+		Loan l2=new Loan();
+		Loan l3=new Loan();
+		Loan l4=new Loan();
+		Loan l5=new Loan();
+		System.out.println ("number of instances" + Loan.loanCounter);
+	*/
+	
+	/*
+	// Employee rating
+		 
+		Employee e=new Employee();
+		e.setPoint(83);
+		int rating=PerformanceRating.calculatePerformance(e);
+		System.out.println("Rating for Employee:" + rating);
+	*/
 	}
 
 }
