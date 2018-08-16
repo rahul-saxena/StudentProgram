@@ -1,5 +1,6 @@
 
 public class Employee {
+	/*
 	int empId;
 	String name;
 	double salary;
@@ -33,5 +34,17 @@ public class Employee {
 	{
 		this.name=name;
 	}
+	*/
 	
+	int point;
+	
+	int getPoint ()
+	{
+		return point;
+	}
+	
+	void setPoint (int point)
+	{
+		this.point=point;
+	}
 }

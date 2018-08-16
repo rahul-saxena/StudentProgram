@@ -1,5 +1,6 @@
 
 public class ContractEmployee extends Employee{
+	/*
 	double wages;
 	int hours;
 	
@@ -27,5 +28,6 @@ public class ContractEmployee extends Employee{
 	{
 		salary=hours*wages;
 	}
+	*/
 	
 }

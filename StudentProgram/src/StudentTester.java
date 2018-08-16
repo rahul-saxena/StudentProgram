@@ -72,7 +72,7 @@ public class StudentTester {
 	*/
 		
 	
-	
+	/*
 	// Permanent and Contract employee salary calculation
 		PermanentEmployee objPermanentEmployee=new PermanentEmployee();
 		objPermanentEmployee.setName("Anil");
@@ -82,13 +82,44 @@ public class StudentTester {
 		objPermanentEmployee.setExperience(3);
 		objPermanentEmployee.calculateSalary();
 		System.out.println("Permanent Employee: Your salary is:" + objPermanentEmployee.salary);
-		
+		System.out.println("Permanent Employee");
 		ContractEmployee objContractEmployee=new ContractEmployee();
 		objContractEmployee.setHours(160);
 		objContractEmployee.setWages(23);
 		objContractEmployee.calculateSalary();
 		System.out.println("Contract Employee: Your salary is:" + objContractEmployee.salary);
+	*/
+		
+	/*
+	 // Player Rating	
+		PlayerRating objPR=new PlayerRating(1,"Beckham");
+		objPR.calculateAverageRating(9f, 9.9f);
+	*/
+		
+	/*
+	 // EventRegistration super construct overrisding	
+		EventRegistration obj= new SingleEventRegistration("Rahul","PlayAway",1);
+		obj.registerEvent();
+	*/
 	
+	/*
+	// static variable
+		Loan l1=new Loan();
+		Loan l2=new Loan();
+		Loan l3=new Loan();
+		Loan l4=new Loan();
+		Loan l5=new Loan();
+		System.out.println ("number of instances" + Loan.loanCounter);
+	*/
+	
+	/*
+	// Employee rating
+		 
+		Employee e=new Employee();
+		e.setPoint(83);
+		int rating=PerformanceRating.calculatePerformance(e);
+		System.out.println("Rating for Employee:" + rating);
+	*/
 	}
 
 }
